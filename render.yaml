@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: placement-portal-frontend
+    env: node
+    buildCommand: npm install --legacy-peer-deps && npm run build
+    startCommand: npm run preview
+    staticPublishPath: dist
