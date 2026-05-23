@@ -17,13 +17,6 @@
     "recharts": "^2.10.3",
     "lucide-react": "^0.303.0"
   },
-  {
-  "scripts": {
-    "dev": "vite",
-    "build": "npm install --legacy-peer-deps && vite build",
-    "preview": "vite preview"
-  }
-}
   "devDependencies": {
     "@types/react": "^18.2.43",
     "@vitejs/plugin-react": "^4.2.1",
